@@ -7,12 +7,16 @@ function App() {
     <>
     <TodoList todos = {todos} />
     <input type = "text" />
-    <button>Add Todo</button>
+    <button onClick= {printFunction}>Add Todo</button>
     <button>Clear Complete</button>
     <div>0 left to do</div>
     </>
 
   )
+}
+
+function printFunction(){
+  console.log('Hello World!')
 }
 
 export default App;
